@@ -43,9 +43,10 @@ input {
   justify-content: space-between;
   align-items: center;
 }
-button {
+.search-btn {
   width: 5em;
   color: black;
+  appearance: none;
 }
 .current-time {
   font-size: 25px;
