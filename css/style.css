@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: azure;
+  font-family: 'Inter Tight', sans-serif;
+}
+
+body {
+  background-image: url('https://kartinkin.net/uploads/posts/2021-07/1626712802_31-kartinkin-com-p-zadnii-fon-dlya-tvicha-krasivo-31.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 350px;
+  margin: 25px auto;
+}
+
+input {
+  font-family: 'Martian Mono', monospace;
+  width: 85%;
+  color: black;
+}
+
+button {
+  color: black;
+  font-family: 'Inter Tight', sans-serif;
+}
+.current-time {
+  font-size: 25px;
+}
+#root {
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 15px;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.weather-temp {
+  font-size: 35px;
+}
+.first-box,
+.second-box,
+.thrid-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.thrid-box{
+  margin-top: 30px;
+}
+.mix-max-t {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}

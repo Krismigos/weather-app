@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./js/index.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>WeatherApp</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <section class="search">
+        <input
+          type="text"
+          placeholder="Write some city..."
+          class="input-text"
+        />
+        <button class="search-btn">Пошук</button>
+      </section>
+
+      <!--Карточка погоди -->
+      <div id="root">
+        <!-- Перший бокс -->
+        <p class="current-time"></p>
+        <div class="first-box">
+          <p class="weather-temp"></p>
+          <img src="" class="img-weather" alt="" />
+          <p class="partly-cloud"></p>
+        </div>
+        <!-- Другий бокс -->
+        <div class="second-box">
+          <p class="feels-like"></p>
+          <div class="mix-max-t">
+            <p class="t-max"></p>
+            <p class="t-min"></p>
+          </div>
+        </div>
+        <!-- Третий бокс -->
+        <div class="thrid-box">
+          <div class="humidity">
+            <img src="./img/Humidity.png" alt="капли" />
+            <p>Вологість</p>
+            <p class="text-humidity">0</p>
+          </div>
+          <div class="Precipit">
+            <img src="./img/Wind.png" alt="Ветер" />
+            <p>Вітер</p>
+            <p class="text-wind">0</p>
+          </div>
+          <div class="Pressure">
+            <img src="./img/Pressure.png" alt="давление" />
+            <p>Тиск</p>
+            <p class="text-pressure">0</p>
+          </div>
+          <div class="Visibility">
+            <img src="./img/Visibility.png" alt="видимость" />
+            <p>Видимість</p>
+            <p class="text-visibility">0</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
