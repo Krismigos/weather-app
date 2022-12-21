@@ -28,7 +28,7 @@ body {
 }
 
 input {
-  font-family: 'Martian Mono', monospace;
+  font-family: 'PT Mono', monospace;
   display: block;
   width: 80%;
   line-height: 3em;
