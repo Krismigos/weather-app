@@ -7,10 +7,14 @@
 
 body {
   background-image: url('https://kartinkin.net/uploads/posts/2021-07/1626712802_31-kartinkin-com-p-zadnii-fon-dlya-tvicha-krasivo-31.jpg');
-  background-position: center;
-  background-size: cover;
+
   background-repeat: no-repeat;
-  height: 100vh;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .wrapper {
