@@ -31,13 +31,17 @@
           placeholder="Write some city..."
           class="input-text"
         />
-        <button class="search-btn">Пошук</button>
+        <button class="search-btn" type="submit">Пошук</button>
       </section>
 
       <!--Карточка погоди -->
       <div id="root">
         <!-- Перший бокс -->
-        <p class="current-time"></p>
+        <div class="date-location">
+          <p class="current-city"></p>
+          <p class="current-time"></p>
+        </div>
+
         <div class="first-box">
           <p class="weather-temp"></p>
           <img src="" class="img-weather" alt="" />

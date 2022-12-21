@@ -16,6 +16,7 @@ const textpressure = document.querySelector('.text-pressure');
 const textvisibility = document.querySelector('.text-visibility');
 const currTime = document.querySelector('.current-time');
 const textwind = document.querySelector('.text-wind');
+const currentCity = document.querySelector('.current-city');
 
 function requestApi(city) {
   const url = `${API_URL}?q=${city}&appid=${YOUR_API_KEY}&units=Metric&lang=ua`;
@@ -36,6 +37,7 @@ function writteCity(e) {
   const input = document.querySelector('.input-text');
   const inputText = input.value;
   requestApi(inputText);
+  input.value = '';
 }
 
 function weatherCard(weatherData) {
@@ -58,4 +60,5 @@ function weatherCard(weatherData) {
   textvisibility.innerText = visibility;
   currTime.innerText = `${nowTime.getDate()}.${nowTime.getMonth()}`;
   textwind.innerText = speed;
+  currentCity.innerText = name;
 }
