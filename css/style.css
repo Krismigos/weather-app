@@ -22,21 +22,30 @@ body {
   margin: 25px auto;
 }
 
+.search {
+  display: flex;
+  gap: 10px;
+}
+
 input {
   font-family: 'Martian Mono', monospace;
-  width: 85%;
+  display: block;
+  width: 80%;
+  line-height: 3em;
+  border-radius: 1.5em;
+  border: 1px solid;
+  padding: 0 1.5em;
   color: black;
 }
 
 button {
+  width: 5em;
   color: black;
-  font-family: 'Inter Tight', sans-serif;
 }
 .current-time {
   font-size: 25px;
 }
 #root {
-  border: 2px solid black;
   border-radius: 15px;
   padding: 15px;
   margin-top: 25px;
@@ -55,7 +64,7 @@ button {
   align-items: center;
   text-align: center;
 }
-.thrid-box{
+.thrid-box {
   margin-top: 30px;
 }
 .mix-max-t {
