@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   color: azure;
-  font-family: 'Inter Tight', sans-serif;
 }
 
 body {
@@ -20,6 +19,7 @@ body {
   flex-wrap: wrap;
   width: 350px;
   margin: 25px auto;
+  font-family: 'Cuprum', sans-serif;
 }
 
 .search {
@@ -28,7 +28,6 @@ body {
 }
 
 input {
-  font-family: 'PT Mono', monospace;
   display: block;
   width: 80%;
   line-height: 3em;
@@ -37,6 +36,7 @@ input {
   padding: 0 1.5em;
   color: black;
   font-size: 16px;
+  font-family: 'Cuprum', sans-serif;
 }
 .date-location {
   display: flex;
