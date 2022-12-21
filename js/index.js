@@ -36,6 +36,7 @@ function requestApi(city) {
 function writteCity(e) {
   const input = document.querySelector('.input-text');
   const inputText = input.value;
+  inputText.replace(/ /g, '');
   requestApi(inputText);
   input.value = '';
 }
