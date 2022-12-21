@@ -44,9 +44,13 @@ input {
   align-items: center;
 }
 .search-btn {
+  font-family: 'Cuprum', sans-serif;
   width: 5em;
   color: black;
   appearance: none;
+  background-color: rgb(255, 255, 255);
+  border-radius: 1em;
+  border-radius: 3;
 }
 .current-time {
   font-size: 25px;
